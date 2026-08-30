@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>รู้จักเว็บไซต์การเรียนรู้ | การสร้างสื่อดิจิทัล</title>
+<meta name="description" content="หน้าแนะนำเว็บไซต์การเรียนรู้รายวิชาการสร้างสื่อดิจิทัล สาขาคอมพิวเตอร์กราฟฟิก AI">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;600;700&family=IBM+Plex+Sans+Thai:wght@300;400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">ข้ามไปเนื้อหาหลัก</a>
+
+<!-- =====================================
+     MAIN WEBSITE URL
+     เปลี่ยน URL ทั้งหมดในไฟล์นี้ที่เขียนว่า YOUR_MAIN_WEBSITE_URL เมื่อพร้อมใช้งานจริง
+===================================== -->
+
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a class="brand" href="#top">
+      <span class="brand-dot" aria-hidden="true"></span>
+      <span class="brand-text">การสร้างสื่อดิจิทัล<small>Introduction Site</small></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="เมนูหลัก">
+      <a href="#top">Home</a>
+      <a href="#about">About</a>
+      <a href="#course">Course</a>
+      <a href="course-description.html">Structure</a>
+      <a href="#objectives">Objectives</a>
+      <a href="#preview">Main Website</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="nav-toggle" id="navToggle" aria-label="เปิดเมนู" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-deco" aria-hidden="true"></div>
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">about the learning website</p>
+        <h1 id="hero-title">เรียนรู้การสร้างสื่อดิจิทัล<br>ผ่านการออกแบบและ AI</h1>
+        <p class="lede">หน้านี้จะพาคุณทำความรู้จักกับเว็บไซต์การเรียนรู้ของรายวิชา "การสร้างสื่อดิจิทัล" ก่อนเข้าสู่บทเรียนจริง — เว็บไซต์นี้คืออะไร เรียนอะไรบ้าง และเริ่มต้นใช้งานอย่างไร</p>
+        <div class="btn-row">
+          <a class="btn btn-outline" href="#about">รู้จักเว็บไซต์นี้</a>
+          <!-- MAIN WEBSITE HREF: ใส่ URL เว็บไซต์หลักตรงนี้ -->
+          <a class="btn btn-primary" href="YOUR_MAIN_WEBSITE_URL">เข้าสู่เว็บไซต์หลัก</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT THIS WEBSITE -->
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="wrap two-col">
+      <div>
+        <p class="section-tag">01 — about this website</p>
+        <h2 id="about-title">เว็บไซต์นี้คืออะไร?</h2>
+        <p>เว็บไซต์การเรียนรู้หลักเป็นสื่อการเรียนรู้ที่จัดทำขึ้นเพื่อใช้ประกอบการเรียนในรายวิชา <strong>การสร้างสื่อดิจิทัล</strong> โดยรวบรวมบทเรียน เนื้อหา ตัวอย่าง และกิจกรรมการเรียนรู้ไว้ในที่เดียว</p>
+        <ul class="check-list">
+          <li>ใช้ประกอบการเรียนในชั้นเรียนและการทบทวนด้วยตนเอง</li>
+          <li>รวบรวมบทเรียนและสื่อการเรียนรู้ของทั้งรายวิชา</li>
+          <li>ผู้เรียนกลับมาทบทวนเนื้อหาเมื่อใดก็ได้</li>
+          <li>เรียนตามลำดับบทเรียนที่จัดไว้ให้</li>
+          <li>เข้าถึงเนื้อหาทั้งหมดได้ผ่านเว็บเบราว์เซอร์</li>
+        </ul>
+      </div>
+      <div class="preview-card">
+        <div class="image-placeholder">
+          <!-- WEBSITE PREVIEW IMAGE
+               ใส่ภาพ Screenshot ของเว็บไซต์หลักตรงนี้ -->
+          <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="4" y="8" width="40" height="30" rx="3" stroke="currentColor" stroke-width="2"/><path d="M4 15h40" stroke="currentColor" stroke-width="2"/><circle cx="9" cy="11.5" r="1.2" fill="currentColor"/><circle cx="13" cy="11.5" r="1.2" fill="currentColor"/></svg>
+          <span>แทนที่ภาพนี้ด้วยภาพหน้าจอเว็บไซต์หลักของคุณ</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT THE COURSE -->
+  <section class="section alt" id="course" aria-labelledby="course-title">
+    <div class="wrap">
+      <p class="section-tag">02 — about the course</p>
+      <h2 id="course-title">เกี่ยวกับรายวิชา</h2>
+      <div class="info-grid">
+        <div class="info-card"><span class="info-label">course</span><span class="info-value">การสร้างสื่อดิจิทัล</span></div>
+        <div class="info-card"><span class="info-label">code</span><span class="info-value placeholder">[รหัสวิชา]</span></div>
+        <div class="info-card"><span class="info-label">level</span><span class="info-value">มัธยมศึกษาปีที่ 5/2</span></div>
+        <div class="info-card"><span class="info-label">field</span><span class="info-value">คอมพิวเตอร์กราฟฟิก AI</span></div>
+        <div class="info-card"><span class="info-label">duration</span><span class="info-value placeholder">[ระยะเวลาเรียนทั้งรายวิชา]</span></div>
+        <div class="info-card wide"><span class="info-label">content</span><span class="info-value">การถ่ายภาพและวิดีโอ · การตัดต่อและปรับแต่งสื่อ · การสร้างงานแอนิเมชัน · การออกแบบสื่อดิจิทัลปฏิสัมพันธ์ · การจัดการและเผยแพร่สื่อดิจิทัล</span></div>
+      </div>
+      <a class="feature-link" href="course-description.html">อ่านคำอธิบายรายวิชาและโครงสร้างรายวิชาฉบับเต็ม →</a>
+    </div>
+  </section>
+
+  <!-- TARGET AUDIENCE -->
+  <section class="section alt" id="audience" aria-labelledby="audience-title">
+    <div class="wrap">
+      <p class="section-tag">03 — who is this for</p>
+      <h2 id="audience-title">เว็บไซต์นี้เหมาะสำหรับใคร?</h2>
+      <div class="card-grid">
+        <div class="plain-card"><span class="card-num">01</span><h3>นักเรียนที่สนใจ Graphic Design</h3><p>ผู้ที่อยากเข้าใจหลักการออกแบบและสร้างสรรค์งานภาพ</p></div>
+        <div class="plain-card"><span class="card-num">02</span><h3>นักเรียนที่สนใจ AI</h3><p>ผู้ที่อยากเรียนรู้การนำ AI มาใช้ร่วมกับการสร้างสื่อ</p></div>
+        <div class="plain-card"><span class="card-num">03</span><h3>ผู้ต้องการเรียนรู้การสร้างสื่อดิจิทัล</h3><p>ผู้ที่อยากเข้าใจกระบวนการสร้างสื่อตั้งแต่ต้นจนจบ</p></div>
+        <div class="plain-card"><span class="card-num">04</span><h3>ผู้ต้องการนำความรู้ไปสร้างผลงานจริง</h3><p>ผู้ที่อยากลงมือฝึกปฏิบัติและมีผลงานเป็นของตนเอง</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PURPOSE / OBJECTIVES -->
+  <section class="section" id="objectives" aria-labelledby="objectives-title">
+    <div class="wrap">
+      <p class="section-tag">04 — purpose / objectives</p>
+      <h2 id="objectives-title">จุดประสงค์ของเว็บไซต์</h2>
+      <div class="obj-grid">
+        <div class="obj-item"><span class="obj-num">01</span><div><span class="obj-tag">learn</span><p>ช่วยให้ผู้เรียนเข้าถึงเนื้อหาการเรียนรู้ได้ง่ายและเป็นระบบ</p></div></div>
+        <div class="obj-item"><span class="obj-num">02</span><div><span class="obj-tag">practice</span><p>นำความรู้ที่ได้ไปทดลองสร้างผลงานจริงด้วยตนเอง</p></div></div>
+        <div class="obj-item"><span class="obj-num">03</span><div><span class="obj-tag">review</span><p>สามารถกลับมาทบทวนเนื้อหาได้ทุกเมื่อที่ต้องการ</p></div></div>
+        <div class="obj-item"><span class="obj-num">04</span><div><span class="obj-tag">create</span><p>ส่งเสริมการสร้างผลงานด้วยแนวคิด Graphic Design และ AI</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW TO USE -->
+  <section class="section alt" id="howto" aria-labelledby="howto-title">
+    <div class="wrap">
+      <p class="section-tag">05 — how to use</p>
+      <h2 id="howto-title">วิธีใช้งานเว็บไซต์การเรียนรู้</h2>
+      <div class="steps">
+        <div class="step"><span class="step-num">01</span><h3>ทำความรู้จักกับรายวิชา</h3><p>เริ่มจากอ่านภาพรวมรายวิชาและโครงสร้างการเรียนรู้</p></div>
+        <div class="step-arrow" aria-hidden="true">→</div>
+        <div class="step"><span class="step-num">02</span><h3>เลือกบทเรียน</h3><p>เลือกหน่วยการเรียนรู้ที่ต้องการศึกษาตามลำดับ</p></div>
+        <div class="step-arrow" aria-hidden="true">→</div>
+        <div class="step"><span class="step-num">03</span><h3>ศึกษาสื่อการเรียนรู้</h3><p>ศึกษาเนื้อหา ตัวอย่าง และวิดีโอประกอบบทเรียน</p></div>
+        <div class="step-arrow" aria-hidden="true">→</div>
+        <div class="step"><span class="step-num">04</span><h3>ทำกิจกรรม/แบบฝึกหัด</h3><p>ลงมือปฏิบัติและทำแบบทดสอบเพื่อทบทวนความเข้าใจ</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN WEBSITE PREVIEW -->
+  <section class="section" id="preview" aria-labelledby="preview-title">
+    <div class="wrap">
+      <p class="section-tag">06 — main website</p>
+      <h2 id="preview-title">เว็บไซต์การเรียนรู้หลัก</h2>
+
+      <div class="main-preview">
+        <div class="image-placeholder large">
+          <!-- CHANGE IMAGE HERE:
+               ใส่ภาพ Screenshot เว็บไซต์หลัก -->
+          <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="4" y="8" width="40" height="30" rx="3" stroke="currentColor" stroke-width="2"/><path d="M4 15h40" stroke="currentColor" stroke-width="2"/><circle cx="9" cy="11.5" r="1.2" fill="currentColor"/><circle cx="13" cy="11.5" r="1.2" fill="currentColor"/></svg>
+          <span>แทนที่ภาพนี้ด้วยภาพหน้าจอเว็บไซต์หลักของคุณ</span>
+        </div>
+        <div class="main-preview-body">
+          <h3>Graphic AI Classroom Website</h3>
+          <p>เว็บไซต์การเรียนรู้หลักที่รวบรวมบทเรียน สื่อการเรียนรู้ และแบบฝึกหัดของรายวิชาการสร้างสื่อดิจิทัลไว้ในที่เดียว</p>
+        </div>
+      </div>
+
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="image-placeholder small"><!-- HREF PLACEHOLDER: ใส่ภาพตัวอย่างส่วนบทเรียน --><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 5h16v14H4z" stroke="currentColor" stroke-width="1.6"/><path d="M8 9h8M8 13h5" stroke="currentColor" stroke-width="1.6"/></svg></div>
+          <span class="feature-label">lessons</span>
+          <h4>บทเรียน</h4>
+          <p>รวมเนื้อหาการเรียนรู้และสื่อประกอบบทเรียนของแต่ละหน่วย</p>
+        </div>
+        <div class="feature-card">
+          <div class="image-placeholder small"><!-- HREF PLACEHOLDER: ใส่ภาพตัวอย่างส่วนแบบฝึกหัด --><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l8 4-8 4-8-4 8-4Z" stroke="currentColor" stroke-width="1.6"/><path d="M4 11l8 4 8-4M4 15l8 4 8-4" stroke="currentColor" stroke-width="1.6"/></svg></div>
+          <span class="feature-label">practice</span>
+          <h4>แบบฝึกหัด</h4>
+          <p>กิจกรรมฝึกปฏิบัติเพื่อนำความรู้ไปสร้างผลงานจริง</p>
+        </div>
+        <div class="feature-card">
+          <div class="image-placeholder small"><!-- HREF PLACEHOLDER: ใส่ภาพตัวอย่างส่วนแบบทดสอบ --><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.4 2.3c-.7.3-1 .8-1 1.5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="16.7" r=".9" fill="currentColor"/></svg></div>
+          <span class="feature-label">quiz</span>
+          <h4>แบบทดสอบ</h4>
+          <p>ทบทวนความเข้าใจหลังเรียนจบแต่ละหน่วยการเรียนรู้</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="cta" aria-labelledby="cta-title">
+    <div class="wrap cta-inner">
+      <h2 id="cta-title">พร้อมเริ่มต้นการเรียนรู้แล้วหรือยัง?</h2>
+      <p>เมื่อพร้อมแล้ว กดปุ่ม "เข้าสู่เว็บไซต์หลัก" ที่ด้านบนของหน้านี้เพื่อเริ่มต้นบทเรียนของคุณ</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div>
+      <div class="brand-text footer-brand">การสร้างสื่อดิจิทัล<small>Introduction Site</small></div>
+      <p>รายวิชาการสร้างสื่อดิจิทัล · สาขาคอมพิวเตอร์กราฟฟิก AI</p>
+      <p class="placeholder">[ชื่อผู้จัดทำ / ครูผู้สอน]</p>
+    </div>
+    <div class="footer-links">
+      <!-- MAIN WEBSITE HREF: ใส่ URL เว็บไซต์หลักตรงนี้ -->
+      <a href="YOUR_MAIN_WEBSITE_URL">Main Website</a>
+      <a href="#top">Home</a>
+      <a href="#about">About</a>
+    </div>
+  </div>
+  <div class="wrap">
+    <p class="copyright">© <span id="year"></span> การสร้างสื่อดิจิทัล — จัดทำเพื่อการศึกษา</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
